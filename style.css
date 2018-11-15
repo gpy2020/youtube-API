@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.snippetImage {
+  width: inherit;
+  border-radius: 15px;
+}
+
+.searchField {
+  margin-bottom: 30px;
+}
+
+.snippetContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.snippetTitle {
+  margin-bottom: 0;
+}
